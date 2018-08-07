@@ -7,6 +7,7 @@ var Todo = mongoose.model('Todo', {
         trim: true,
         minlength: 1
     },
+    
     completed: {
         type: Boolean,
         default: false
@@ -17,4 +18,4 @@ var Todo = mongoose.model('Todo', {
     }
 });
 
-module.exports = { Todo };
+module.exports = {Todo};
